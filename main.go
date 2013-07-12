@@ -8,10 +8,10 @@ import (
 )
 
 var (
-	minwidth = flag.Int("min", 0, "minimum field width")
-	tabwidth = flag.Int("tab", 8, "tab width")
-	padding = flag.Int("pad", 1, "extra padding between fields")
-	padchar = flag.String("padch", " ", "padding character")
+	minwidth   = flag.Int("min", 0, "minimum field width")
+	tabwidth   = flag.Int("tab", 8, "tab width")
+	padding    = flag.Int("pad", 1, "extra padding between fields")
+	padchar    = flag.String("padch", " ", "padding character")
 	alignright = flag.Bool("right", false, "align fields to the right")
 )
 
